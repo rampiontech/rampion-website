@@ -3,10 +3,18 @@
     font-family: mont;
   }
 body{
+<<<<<<< HEAD
     background-color:#191919;
     box-sizing: border-box;
     font-family:'Poppins',sans-serif;
     font-weight:bold;
+=======
+    font-family: 'Poppins', sans-serif;
+    background-color: #191919;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+>>>>>>> b56e47a271c15ae1710048fcf66fdf6976cd1843
 }
 
 header{
