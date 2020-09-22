@@ -1,11 +1,12 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link href="https://fonts.google.com/specimen/Poppins?query=poppins">
-    <link rel="stylesheet" href="style.css">
     <title>Document</title>
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.google.com/specimen/Poppins?query=poppins">
 </head>
 <body>
     <div class="container">
@@ -35,7 +36,10 @@
     <section class="content-holder">
        <article class="content">
           <main>
-              <div class="first">
+
+
+              <!--First-->
+              <div data-aos="fade-right" class="first">
                 <h4> WELCOME TO RAMPION!</h4>
                 <h2>WHAT WE DO</h2>
                 <p>We Create high quality digital visual designs, 
@@ -44,14 +48,17 @@
                     Over the years, we have helped and guided
                     many buisnesses across Nigeria to achieve
                     Outstanding results. 
-                </p>
+                </p>  
                 <img class="quality" src="verified.svg" alt="">
                 <div class="high">
                     <h4>High Quality Designs</h4>
                 </div>
                 <div class="clearfix"></div>
               </div>
-              <div class="second">
+
+
+              <!--Second-->
+              <div data-aos="fade-left" class="second">
                 <h4> TESTED AND TRUSTED</h4>
                 <h2>OUR MISSION</h2>
                 <p>To Create products and services that
@@ -63,6 +70,9 @@
                         <h4>Cutting Edge Technology</h4>
                     </div>
               </div>
+
+
+              <!--aboutUS-->
               <div class="about-us">
                 <h3>WHAT YOU SHOULD KNOW</h3>
                 <h2>ABOUT US</h2>
@@ -76,9 +86,13 @@
                     Expect more from us in the coming years.
                 </p>
                </div>
+
+
               </div>
           </main>
         </article>
     </section>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script src="App.js" type="text/javascript"></script>
 </body>
 </html>
