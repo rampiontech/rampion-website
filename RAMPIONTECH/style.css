@@ -3,9 +3,10 @@
     font-family: mont;
   }
 body{
-    font-family:poppins;
-    background-color: #191919;
+    background-color:#191919;
     box-sizing: border-box;
+    font-family:'Poppins',sans-serif;
+    font-weight:bold;
 }
 
 header{
@@ -16,6 +17,9 @@ header{
     z-index: 1;
     height: 3rem;
     margin: 0;
+}
+.ramplogo{
+    font-family: 'Montserrat', sans-serif;
 }
 
 .logo{
@@ -147,24 +151,47 @@ left: 0;
 .clearfix{
     clear: both;
 }
-
+@media(max-width:1000px){
+.row{
+      text-align:center;
+      
+}
+}
+@media(min-width:1000px){
 .first{
     top:180px;
     position: relative;
-    max-width: 1000px;
     float: left;
     margin-left: 20px;
     z-index: 0;
 }
-
-.first >h4{
+}
+@media(max-width:1000px){
+.first{
+        display:block;
+        text-align:center;
+        
+}
+}
+@media(min-width:1000px){
+.first>h4{
 margin:0;
 font-size: 15px;
 line-height: 1em;
 color:#ABABAB; 
-margin-left: 20px;
+margin-left:20px;
 } 
-
+}
+@media(max-width:1000px){
+    .first>h4{
+    text-align:center;
+    font-size: 15px;
+    line-height: 1em;
+    color:#ABABAB; 
+    margin-top:50px;
+} 
+ }
+@media(min-width:1000px){
 .first >h2{
     margin: 0;
     font-size: 42px;
@@ -172,20 +199,51 @@ margin-left: 20px;
     color:#F7F7F7; 
     margin-left: 20px;
     }
-
+}
+@media(max-width:1000px){
+    .first >h2{
+        text-align:center;
+        font-size: 42px;
+        line-height: 1em;
+        color:#F7F7F7; 
+    }
+    }
+@media(min-width:1000px){
 .first >p{
     margin: 10px 0px 0px 20px;
     color:#DEDEDE;
-    font-size: 14px;
+    font-size: 17px;
     max-width: 400px;
+    line-height:1.5;
 }
+}
+@media(max-width:1000px){
+    .first >p{
+        color:#DEDEDE;
+        font-size:15px;
+        text-align:center;
+        
+}
+}
+@media(min-width:1000px){
 .quality{
     max-width:15%;
     max-height:15%;
     margin-left: 10px;
     position: absolute;
-    margin-top:25px ;
+    margin-top:25px;
 }
+}
+@media(max-width:1000px){
+    .quality{
+        max-width:15%;
+        max-height:15%;
+        margin-left: 10px;
+        text-align:center;
+        margin-top:25px;
+}
+}
+@media(min-width:1000px){
 .first .high{
     margin:0;
     font-size: 15px;
@@ -195,13 +253,32 @@ margin-left: 20px;
     margin-top: 10px;
     position: absolute;
 }
+}
+@media(max-width:1000px){
+    .first .high{
+        text-align:center;
+        font-size: 15px;
+        line-height: 1em;
+        color:#F7F7F7;
+        
+}
+}
+@media(min-width:1000px){
 .second{
     float: right;
     max-width: 500px;
     position: relative;
     margin-top:540px;
 }
+}
 
+@media(max-width:1000px){
+    .second{
+        text-align:center;
+        
+}
+}
+@media(min-width:1000px){
 .second >h4{
     margin:0;
     font-size: 15px;
@@ -209,22 +286,59 @@ margin-left: 20px;
     color:#ABABAB; 
     margin-left: 20px;
     } 
-    
+} 
+@media(max-width:1000px){
+    .second >h4{
+        text-align:center;
+        font-size: 15px;
+        line-height: 1em;
+        color:#ABABAB; 
+        
+        } 
+    } 
+@media(min-width:1000px){
 .second>h2{
     margin: 0;
     font-size: 42px;
     line-height: 1em;
     color:#F7F7F7; 
-    margin-left: 20px;}
-
-.clearfix{clear: both;}
-
+    margin-left: 20px;
+}
+}
+@media(max-width:1000px){
+.second>h2{
+        font-size: 42px;
+        line-height: 1em;
+        color:#F7F7F7; 
+        text-align:center;
+}
+}
+@media(min-width:1000px){
+.clearfix{clear: both;
+}
+}
+@media(max-width:1000px){
+.clearfix{clear: both;
+ }
+ }
+@media(min-width:1000px){
 .second >p{
     margin: 10px 0px 0px 20px;
     color:#DEDEDE;
-    font-size: 14px;
+    font-size: 17px;
     max-width: 400px;
+    line-height:1.5;
+
 }
+}
+@media(max-width:1000px){
+    .second >p{
+        color:#DEDEDE;
+        font-size: 14px;
+        text-align:center;
+    }
+    }
+@media(min-width:1000px){
 .second .high{
     margin:0;
     font-size: 15px;
@@ -234,7 +348,17 @@ margin-left: 20px;
     margin-top: 10px;
     position: absolute;
 }
-
+}
+@media(max-width:1000px){
+    .second .high{
+        
+        font-size: 15px;
+        line-height: 1em;
+        color:#F7F7F7; 
+        text-align:center;
+    }
+    }
+@media(min-width:1000px){
   .mission{
     max-width:20%;
     max-height:20%;
@@ -242,12 +366,29 @@ margin-left: 20px;
     position:absolute;
     margin-top:18px ;
 }
+}
+@media(max-width:1000px){
+    .mission{
+      max-width:20%;
+      max-height:20%;
+      text-align:center;
+  }
+  }
+@media(min-width:1000px){
 .second .our-tool{
     float: right;
     margin-left: 70px;
     position: absolute;
     color:#F7F7F7;
 }
+}
+@media(max-width:1000px){
+    .second .our-tool{
+        text-align:center;
+        color:#F7F7F7;
+ }
+ }
+@media(min-width:1000px){
 .about-us{
     margin: 0;
     position: relative;
@@ -256,7 +397,13 @@ margin-left: 20px;
     padding: 17px;
     text-align: center;
 }
-
+}
+@media(max-width:1000px){
+    .about-us{
+        text-align: center;
+    }
+    }
+@media(min-width:1000px){
 .about-us >h3{
     margin:0;
     font-size: 15px;
@@ -264,6 +411,17 @@ margin-left: 20px;
     color:#ABABAB; 
     margin-left: 20px;
 }
+}
+@media(max-width:1000px){
+    .about-us >h3{
+        
+        font-size: 15px;
+        line-height: 1em;
+        color:#ABABAB; 
+        text-align:center;
+}
+}
+@media(min-width:1000px){
 .about-us >h2{
     margin: 0;
     font-size: 60px;
@@ -271,12 +429,36 @@ margin-left: 20px;
     color:#F7F7F7; 
     margin-left: 15px;
 }
+}
+
+@media(max-width:1000px){
+    .about-us >h2{
+        text-align:center;
+        font-size: 60px;
+        line-height: 1em;
+        color:#F7F7F7; 
+        
+    }
+    }
+@media(min-width:1000px){
 .about-us .history{
     margin: 0px;
     color:#DEDEDE;
-    font-size: 18px;
+    font-size: 17px;
     max-width: auto;
     text-align: center;
     padding: 24px;
     overflow: hidden;
+    line-height:1.5;
 }
+}
+@media(max-width:1000px){
+    .about-us .history{
+        
+        color:#DEDEDE;
+        font-size: 18px;
+        text-align: center;
+        padding: 24px;
+        
+    }
+    }
