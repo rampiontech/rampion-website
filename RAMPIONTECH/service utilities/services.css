@@ -46,7 +46,7 @@ body{
 .container .col{
     background: #484848;
     margin: 0 9px;
-    transition: 1s linear all;
+    transition: .2s linear all;
     max-width: 30%;
     margin-bottom: 50px;
     width: 100%;
@@ -54,6 +54,10 @@ body{
 
 .container .col:hover{
     box-shadow: 2px 2px 6px 1px #000;
+    position: relative;
+    top: 0;
+    left: 0;
+    transform: translate(0, -9%);
 }
 
 /*.container .col img{
