@@ -10,7 +10,6 @@ body {
   padding: 0;
   overflow-x: hidden;
 }
-
 header {
   background-color: #161616;
   position: sticky;
@@ -153,13 +152,7 @@ header {
 .clearfix {
   clear: both;
 }
-@media (max-width: 1000px) {
-  .row {
-    text-align: center;
-    display: block;
-  }
-}
-@media (min-width: 1000px) {
+@media (min-width: 1200px) {
   .first {
     top: 180px;
     position: relative;
@@ -168,14 +161,15 @@ header {
     z-index: 0;
   }
 }
-@media (max-width: 1000px) {
+
+@media (max-width: 1200px) {
   .first {
-    display: block;
+    margin-top: 90px;
     text-align: center;
-    margin-top:90px;
+    margin-bottom: 0%;
   }
 }
-@media (min-width: 1000px) {
+@media (min-width: 1200px) {
   .first > h4 {
     margin: 0;
     font-size: 15px;
@@ -184,17 +178,17 @@ header {
     margin-left: 20px;
   }
 }
-@media (max-width: 1000px) {
+@media (max-width: 1200px) {
   .first > h4 {
+    margin:0;
     text-align: center;
-    font-size:15px;
+    font-size: 15px;
     line-height: 1em;
     color: #ababab;
-    margin-bottom:-5px;
-    
+
   }
 }
-@media (min-width: 1000px) {
+@media (min-width: 1200px) {
   .first > h2 {
     margin: 0;
     font-size: 42px;
@@ -203,15 +197,15 @@ header {
     margin-left: 20px;
   }
 }
-@media (max-width: 1000px) {
+@media (max-width: 1200px) {
   .first > h2 {
     margin: 0;
-    font-size: 42px;
+    font-size: 50px;
     line-height: 1em;
     color: #f7f7f7;
   }
 }
-@media (min-width: 1000px) {
+@media (min-width: 1200px) {
   .first > p {
     margin: 10px 0px 0px 20px;
     color: #dedede;
@@ -220,24 +214,14 @@ header {
     line-height: 1.5;
   }
 }
-@media (max-width: 1000px) {
+@media (max-width: 1200px) {
   .first > p {
     color: #dedede;
     font-size: 15px;
     text-align: center;
   }
 }
-@media (min-width: 1000px) {
-  .quality {
-    
-  }
-}
-@media (max-width: 1000px) {
-  .quality {
-    
-  }
-}
-@media (min-width: 1000px) {
+@media (min-width: 1200px) {
   .first .high {
     margin: 0;
     font-size: 15px;
@@ -248,7 +232,7 @@ header {
     position: absolute;
   }
 }
-@media (max-width: 1000px) {
+@media (max-width: 1200px) {
   .first .high {
     text-align: center;
     font-size: 15px;
@@ -256,7 +240,7 @@ header {
     color: #f7f7f7;
   }
 }
-@media (min-width: 1000px) {
+@media (min-width: 1200px) {
   .second {
     float: right;
     max-width: 500px;
@@ -265,12 +249,12 @@ header {
   }
 }
 
-@media (max-width: 1000px) {
+@media (max-width: 1200px) {
   .second {
-          text-align: center;
+    text-align: center;
   }
 }
-@media (min-width: 1000px) {
+@media (min-width: 1200px) {
   .second > h4 {
     margin: 0;
     font-size: 15px;
@@ -279,43 +263,44 @@ header {
     margin-left: 20px;
   }
 }
-@media (max-width: 1000px) {
+@media (max-width: 1200px) {
   .second > h4 {
-    text-align: center;
-    font-size:15px;
+    margin: 0px;
+    font-size: 15px;
     line-height: 1em;
     color: #ababab;
-    margin-bottom:-45px;
+    text-align: center;
   }
 }
-@media (min-width: 1000px) {
+@media (min-width: 1200px) {
   .second > h2 {
-    margin: 0;
+    margin:0;
     font-size: 50px;
     line-height: 1em;
     color: #f7f7f7;
     margin-left: 20px;
   }
 }
-@media (max-width: 1000px) {
+@media (max-width: 1200px) {
   .second > h2 {
-    font-size:50px;
+    margin:0;
+    font-size: 50px;
     line-height: 1em;
     color: #f7f7f7;
     text-align: center;
   }
 }
-@media (min-width: 1000px) {
+@media (min-width: 1200px) {
   .clearfix {
     clear: both;
   }
 }
-@media (max-width: 1000px) {
+@media (max-width: 1200px) {
   .clearfix {
     clear: both;
   }
 }
-@media (min-width: 1000px) {
+@media (min-width: 1200px) {
   .second > p {
     margin: 10px 0px 0px 20px;
     color: #dedede;
@@ -324,14 +309,14 @@ header {
     line-height: 1.5;
   }
 }
-@media (max-width: 1000px) {
+@media (max-width: 1200px) {
   .second > p {
     color: #dedede;
     font-size: 14px;
     text-align: center;
   }
 }
-@media (min-width: 1000px) {
+@media (min-width: 1200px) {
   .second .high {
     margin: 0;
     font-size: 15px;
@@ -342,7 +327,7 @@ header {
     position: absolute;
   }
 }
-@media (max-width: 1000px) {
+@media (max-width: 1200px) {
   .second .high {
     font-size: 15px;
     line-height: 1em;
@@ -350,7 +335,7 @@ header {
     text-align: center;
   }
 }
-@media (min-width: 1000px) {
+@media (min-width: 1200px) {
   .mission {
     max-width: 20%;
     max-height: 20%;
@@ -359,14 +344,14 @@ header {
     margin-top: 18px;
   }
 }
-@media (max-width: 1000px) {
+@media (max-width: 1200px) {
   .mission {
     max-width: 20%;
     max-height: 20%;
     text-align: center;
   }
 }
-@media (min-width: 1000px) {
+@media (min-width: 1200px) {
   .second .our-tool {
     float: right;
     margin-left: 70px;
@@ -374,13 +359,13 @@ header {
     color: #f7f7f7;
   }
 }
-@media (max-width: 1000px) {
+@media (max-width: 1200px) {
   .second .our-tool {
     text-align: center;
     color: #f7f7f7;
   }
 }
-@media (min-width: 1000px) {
+@media (min-width: 1200px) {
   .about-us {
     margin: 0;
     max-width: auto;
@@ -390,12 +375,12 @@ header {
     text-align: center;
   }
 }
-@media (max-width: 1000px) {
+@media (max-width: 1200px) {
   .about-us {
     text-align: center;
   }
 }
-@media (min-width: 1000px) {
+@media (min-width: 1200px) {
   .about-us > h3 {
     margin: 0;
     font-size: 15px;
@@ -404,34 +389,34 @@ header {
     margin-left: 20px;
   }
 }
-@media (max-width: 1000px) {
+@media (max-width: 1200px) {
   .about-us > h3 {
-    font-size:15px;
+    margin:0px;
+    font-size: 15px;
     line-height: 1em;
     color: #ababab;
-    text-align:center;
-    margin-bottom:-45px;
-  }
-}
-@media (min-width: 1000px) {
-  .about-us > h2 {
-    font-size:50px;
-    margin:0;
-    line-height: 1em;
-    color:white;
-    margin-left: 20px;
-    font-weight:bold;
-  }
-}
-@media (max-width: 1000px) {
-  .about-us > h2 {
-    font-size:50px;
     text-align: center;
-    line-height: 1em;
-    color:white;
   }
 }
-@media (min-width: 1000px) {
+@media (min-width: 1200px) {
+  .about-us > h2 {
+    font-size: 50px;
+    margin: 0;
+    line-height: 1em;
+    color: white;
+    margin-left: 20px;
+    font-weight: bold;
+  }
+}
+@media (max-width: 1200px) {
+  .about-us > h2 {
+    margin:0;
+    font-size: 50px;
+    text-align: center;
+    color: white;
+  }
+}
+@media (min-width: 1200px) {
   p.history {
     color: #dedede;
     font-size: 18px;
@@ -442,14 +427,12 @@ header {
     overflow: hidden;
     text-align: center;
     line-height: 1.5;
-
   }
 }
-@media (max-width: 1000px) {
+@media (max-width: 1200px) {
   p.history {
     color: #dedede;
     font-size: 14px;
     text-align: center;
-    margin-top:-30px;
   }
 }
