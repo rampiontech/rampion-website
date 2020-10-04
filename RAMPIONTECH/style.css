@@ -152,6 +152,10 @@ header {
 .clearfix {
   clear: both;
 }
+
+
+
+
 @media (min-width: 1200px) {
   .first {
     top: 180px;
